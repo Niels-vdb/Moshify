@@ -840,3 +840,23 @@ a {
     margin-top: 5rem;
   }
 }
+/* Showcase Block */
+
+.showcase__picture > img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .block-showcase .grid {
+    grid-template-columns: 50% 50%;
+  }
+
+  .showcase__picture {
+    justify-self: end;
+  }
+
+  .showcase__picture > img {
+    width: auto;
+    max-width: 675px;
+  }
+}
