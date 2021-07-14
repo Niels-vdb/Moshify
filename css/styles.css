@@ -438,3 +438,22 @@ a {
     font-size: 1.7rem;
   }
 }
+
+/* Media Body */
+
+.media {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.media__header {
+  margin: 0;
+}
+
+.media__body {
+  margin: 0 2rem;
+}
+
+.media__image {
+  margin-top: 0;
+}
